@@ -1,0 +1,50 @@
+
+body{
+    background-image: url(../othello/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+div{
+    background-color: green;
+    width: 75px;
+    height: 75px;
+}
+
+.table{
+    margin: auto;
+    display:table;
+    width:  600px;
+    height: 75px;
+    border-collapse: collapse;
+}
+
+
+
+.space{
+    
+    display:table-cell;
+    border: solid 2px black;
+     
+}
+
+.white_circle{  
+    display:table-cell;
+    border: solid 2px black;
+    width : 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color:white;
+}
+
+.black_circle{
+    display:table-cell;
+    border: solid 2px black;
+    width : 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color:black;
+}
+
+
+
